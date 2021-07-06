@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Review Form</title>
+    <link rel="stylesheet" href="review.css">
+    <link 
+</head>
+<body>
+    <center>
+    <h1>Review Form</h1>
+    <form method="GET" action="thankYou.html">
+    <div class="container">
+        <div>
+        <label for="firstName">First Name: </label>
+        <input type="text" placeholder="First Name" id="fName">
+    </div>
+    <br>
+    <div>
+        <label for="lastName">Last Name: </label>
+        <input type="text" placeholder="Last Name" id="lName">
+    </div>
+    
+    <hr>
+    <p>How was the experience with the To-Do List App?</p>
+
+    <div>
+    <input type="radio" id="" name="rate" value="good"
+            checked>
+    <label for="rate">Good</label>
+
+    <input type="radio" id="" name="rate" value="nice">
+    <label for="rate">Nice</label>
+
+    <input type="radio" id="" name="rate" value="average">
+    <label for="rate">Average</label>
+    </div>
+    <hr>
+    <p>App Features:</p>
+
+    <div>
+    <input type="range" id="range" name=""
+            min="0" max="10">
+    <label for="">Performance</label>
+    </div>
+
+        <div>
+        <input type="range" id="range" name="" 
+                min="0" max="10">
+        <label for="">Speed</label>
+        </div>
+        <div>
+            <input type="range" id="range" name="" 
+                min="0" max="10">
+            <label for="">Visuality</label>
+        </div>
+        <div>
+            <input type="range" id="range" name="" 
+                min="0" max="10">
+            <label for="">Simplicity</label>
+        </div>
+<hr>
+<p>You thoughts about the app:</p>
+        <div>
+            <textarea id="comment" placeholder="Add a comment" maxlength="50"></textarea>
+        </div>
+        <br>
+        
+        <div>
+            <button type="submit">Submit</button>
+        </div>
+</div>
+</form>
+</center>
+</body>
+</html>
