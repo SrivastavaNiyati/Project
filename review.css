@@ -1,0 +1,17 @@
+body{
+background-color: #B5CDA3;
+}
+
+
+.container{
+    border: 1px solid #201215;
+    border-radius: 15%;
+    width: 30%;
+    height: 100%;
+    padding: 20px;
+    margin: auto;
+    background-color: #FAEBE0;
+}
+input{
+    text-align: left;
+}
